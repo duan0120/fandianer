@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen w-screen bg-white">
       <div className="bg-[#FFF7E8] px-[86px] pt-[26px] pb-[86px]">
         <div className="flex items-center">
           <Image src="/logo.png" alt="logo" width={56} height={56} />
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className="pt-[70px] flex flex-col items-center text-center">
         <p className="text-[#262626] text-[40px] font-bold">就近、实惠的推荐官</p>
-        <div className="flex flex-col items-start mt-[54px] w-[720px]">
+        <div className="text-left mt-[54px] px-[32px]">
           <p className="text-[#65381F] text-[24px] font-bold">准确推荐</p>
           <p className="text-[#262626] text-[20px]">根据您的位置，准确推荐附近的餐馆</p>
           <p className="text-[#65381F] text-[24px] font-bold mt-[20px]">信息真实</p>
@@ -33,5 +33,5 @@ export default function Home() {
         <p className="mt-[115px] mb-[43px] text-[14px] text-[#262626]">© CrazyKids Studio. 2025</p>
       </div>
     </div>
-  );
+  )
 }
