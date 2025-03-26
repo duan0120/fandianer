@@ -6,7 +6,7 @@ export default function Home() {
       <div className="bg-[#FFF7E8] px-[86px] pt-[26px] pb-[86px]">
         <div className="flex items-center">
           <Image src="/logo.png" alt="logo" width={56} height={56} />
-          <h1 className="text-[#262626] text-[26px] font-bold">饭点儿</h1>
+          <h1 className="text-[#262626] text-[26px] font-bold ml-[8px]">饭点儿</h1>
         </div>
         <div className="flex items-center justify-around mt-[82px]">
           <p className="text-[#262626] text-[40px] font-bold">到饭点儿，轻轻一摇推荐附近的餐馆</p>
