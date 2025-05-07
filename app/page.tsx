@@ -15,7 +15,7 @@ export default function Home() {
           <a href="https://apps.apple.com/cn/app/%E9%A5%AD%E7%82%B9%E5%84%BF-%E6%91%87%E4%B8%80%E6%91%87%E6%8E%A8%E8%8D%90%E9%99%84%E8%BF%91%E7%9A%84%E9%A4%90%E9%A6%86/id6743344692"><Image src="/download_on_the_app_store_btn.svg" alt="download" width={185} height={63} /></a>
         </div>
         <div className="flex items-center justify-center">
-          <Image className="mt-[71px]" src="/phone.png" alt="download" width={1058} height={613}/>
+          <Image className="mt-[71px]" src="/phone.png" alt="download" width={1058} height={613} />
         </div>
       </div>
       <div className="pt-[70px] flex flex-col items-center text-center">
@@ -31,7 +31,7 @@ export default function Home() {
         <p className="text-[#262626] text-[40px] font-bold mt-[161px]">可在AppStore下载</p>
         <a href="https://apps.apple.com/cn/app/%E9%A5%AD%E7%82%B9%E5%84%BF-%E6%91%87%E4%B8%80%E6%91%87%E6%8E%A8%E8%8D%90%E9%99%84%E8%BF%91%E7%9A%84%E9%A4%90%E9%A6%86/id6743344692" className="mt-[40px]"><Image src="/download_on_the_app_store_btn.svg" alt="download" width={185} height={63} /></a>
         <div className="flex items-center justify-center mt-[115px] mb-[43px] text-[14px] text-[#262626]">
-          <Link href="https://blog.crazykids.tech">© CrazyKids Studio. 2025</Link>
+          <Link href="https://www.crazykids.tech">© CrazyKids Studio. 2025</Link>
           <span className="mx-[10px]">•</span>
           <Link href="https://www.memora.top">Memora</Link>
           <span className="mx-[10px]">•</span>
